@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hideScoll::-webkit-scrollbar {
+	display: none; /* Hide scrollbars in WebKit browsers */
+}
+.hideScoll {
+	overflow: auto; /* Allow scrolling */
+	-ms-overflow-style: none; /* Hide scrollbars in IE and older Edge */
+	scrollbar-width: none; /* Hide scrollbars in Firefox */
+	overflow: hidden;
+}
